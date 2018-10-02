@@ -1,0 +1,103 @@
+.green-box
+{
+
+	width:100%!important;
+	height: 500px;
+	
+	background-color: green!important;
+	text-align: center;
+}
+
+.white-box
+{
+	width:100%!important;
+	height: 400px;
+	background-color: white!important;
+	text-align: center;
+}
+
+.blue-box
+{
+	width:100%!important;
+	height: 40px;
+	margin-top: 20px;
+	background-color: blue!important;
+	color: white;
+	text-align: center;
+}
+
+.left-box-img
+{
+	width: 300px;
+	float: left;
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.center-box-img
+{
+	width: 300px;
+	float: center;
+	margin: 0 auto;
+}
+
+.right-box-img
+{
+	width: 300px;
+	float: right;
+	margin-left: 50px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+}
+
+.title
+{
+	color: white;
+}
+
+.line
+{
+	width: 100px;
+	height: 5px;
+	color:white;
+	display: block
+}
+
+.debil-img
+{
+	margin-top: 25px;
+}
+
+.star-img
+{
+	margin: 0 auto;
+	display: block
+}
+
+.star-box
+{
+	margin: 0 auto;
+	width: 220px;
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width:972px){
+	.box{
+		margin: 0 10px;
+		background-color: purple!important;
+		
+	}
+}
+
+@media screen and (min-width: 973px) and (max-width: 1030px){
+	.box{
+		width: 100px;
+		background-color: blue!important;
+		border-radius: 20px;
+		
+	}
+}
+
